@@ -62,27 +62,32 @@
 		$('.mu-skill-progress-bar').appear(function() {
 
 		 	$('.mu-ableton-bar').LineProgressbar({
-				percentage: 95,
+				percentage: 90,
+				years: 7,
 				triggerOnce: true
 			});
 
 			$('.mu-adobe-bar').LineProgressbar({
-				percentage: 90,
+				percentage: 80,
+				years: 6,
 				triggerOnce: true
 			});
 
 			$('.mu-java-bar').LineProgressbar({
-				percentage: 85,
+				percentage: 70,
+				years: 5,
 				triggerOnce: true
 			});
 
-			$('.mu-qualtrics-bar').LineProgressbar({
-				percentage: 80,
+			$('.mu-uxdesign-bar').LineProgressbar({
+				percentage: 60,
+				years: 4,
 				triggerOnce: true
 			});
 
 			$('.mu-html-bar').LineProgressbar({
-				percentage: 75,
+				percentage: 60,
+				years: 4,
 				triggerOnce: true
 			});
 

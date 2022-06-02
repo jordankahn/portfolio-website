@@ -52,7 +52,7 @@
 				{	
 					step: function(x) {
 						if(options.ShowProgressCount){
-							$(el).find(".percentCount").text(Math.round(x) + "%");
+							$(el).find(".percentCount").text(Math.round(x)/10-2 + " years");
 						}
 					},
 					duration: options.duration
